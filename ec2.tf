@@ -11,3 +11,7 @@ resource "aws_instance" "web" {
     Name = "HelloWorld"
   }
 }
+
+
+http_endpoint = "enabled"
+http_tokens   = "required"
